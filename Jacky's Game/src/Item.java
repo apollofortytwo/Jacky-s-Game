@@ -1,22 +1,22 @@
 
 public class Item {
 
-	private ItemID id = null;
-	private int health = 0;
-	private int defence = 0;
-	private int attack = 0;
-	private int speed = 0;
-	private String name = "BLANK";
-	private String definition = "BLANK";
+	private ItemID 	id 			= null;
+	private int 	health 		= 0;
+	private int 	defence 	= 0;
+	private int 	attack 		= 0;
+	private int 	speed 		= 0;
+	private String 	name 		= "BLANK";
+	private String 	definition 	= "BLANK";
 
 	public Item(Item item) {
-		id = item.id;
-		health = item.getHealth();
-		defence = item.getDefence();
-		attack = item.getAttack();
-		speed = item.getSpeed();
-		name = item.getName();
-		definition = item.getDefinition();
+		id 			= item.id;
+		health 		= item.getHealth();
+		defence 	= item.getDefence();
+		attack 		= item.getAttack();
+		speed 		= item.getSpeed();
+		name 		= item.getName();
+		definition 	= item.getDefinition();
 	}
 	
 	public Item(){
